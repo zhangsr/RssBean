@@ -12,8 +12,6 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -30,14 +28,14 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.0'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
     }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':common')
-    api 'org.greenrobot:greendao:3.2.0'
+    api 'org.greenrobot:greendao:3.2.2'
 }
 
 greendao {
