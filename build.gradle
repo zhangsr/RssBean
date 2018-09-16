@@ -36,7 +36,7 @@ buildscript {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':rsscommon')
+    implementation project(':common')
     api 'org.greenrobot:greendao:3.2.0'
 }
 
