@@ -88,6 +88,7 @@ public class Discover {
         Discover discover = new Discover();
         discover.url = this.url;
         discover.title = this.title;
+        discover.key = this.key;
         return discover;
     }
 }
