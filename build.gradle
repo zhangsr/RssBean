@@ -36,8 +36,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':common')
     api 'org.greenrobot:greendao:3.2.2'
+    api 'io.github.yuweiguocn:GreenDaoUpgradeHelper:v2.2.1'
 }
 
 greendao {
-    schemaVersion 3
+    schemaVersion 5
 }
