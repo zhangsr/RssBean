@@ -89,6 +89,8 @@ public class Discover {
         discover.url = this.url;
         discover.title = this.title;
         discover.key = this.key;
+        discover.iconUrl = this.iconUrl;
+        discover.desc = this.desc;
         return discover;
     }
 }
